@@ -1,0 +1,8 @@
+node_modules
+dist
+.cache
+.env.local
+.husky
+yarn-error.log
+.next
+.parcel-cache

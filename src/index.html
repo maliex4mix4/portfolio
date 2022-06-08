@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Malik Diyaolu Portfolio">
+  <title>Malik Diyaolu</title>
+  <link rel="stylesheet" href="./styles/style.scss">
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./styles/sal.css">
+</head>
+<body>
+  <div class="container">
+    <div class="landing headline">
+      <div class="contained">
+        <div class="sect-1">
+          <h1 class="name">Malik Diyaolu</h1>
+          <p class="tagline">Software Engineer & Blockchain Developer</p>
+        </div>
+        <img src="./img/myAvatar.png" alt="My Avatar">
+      </div>
+      <nav>
+        <ul class="link-nav">
+          <li><a class="link-nav-items" target="_blank" href="./resume/">Resume</a></li>
+          <li><a class="link-nav-items" href="mailto:malikdiyaolu.o@gmail.com">Gmail</a></li>
+          <li><a class="link-nav-items" href="https://github.com/maliex4mix4">Github</a></li>
+        </ul>
+      </nav>
+    </div>
+    <span class="scroll-down">↓ Scroll Down</span>
+  </div>
+  
+  <main class="container project">
+    <div class="other-projects project-grid">
+
+      <div 
+        class="project-grid-item project-flex-item"
+        data-sal-duration="1000"
+        data-sal="slide-up"
+        data-sal-delay="300"
+        data-sal-easing="ease-out-bounce"
+      >
+        <a href="https://numbers.ng" target="_blank" rel="noopener">
+          <img class="detail-img" src="./img/numbers.webp" alt="Numbers">
+        </a>
+        <div class="project-detail project-flex-about">
+            <p class="project-title">Numbers NG</p>
+            <p class="more-details">.Numbers is a google-like search engine that enables customers to meet with businesses (service and product providers) when they search.</p>
+            <p class="project-background">Python, Django, Django Rest Framework, Postgres Sql, A/B Testing, Amazon web services (Feb 2021 - Sept 2021)</p>
+        </div>
+      </div>
+      <div 
+        class="project-grid-item project-flex-item"
+        data-sal-duration="1200"
+        data-sal="slide-up"
+        data-sal-delay="300"
+        data-sal-easing="ease-out-bounce"
+      >
+        <a href="https://fashy.shop" target="_blank" rel="noopener">
+          <img class="detail-img" src="./img/image_fixed_width.jpg" alt="Fashy Shop">
+        </a>
+        <div class="project-detail project-flex-about">
+            <p class="project-title">Fashy</p>
+            <p class="more-details">Fashy (Fa-she) is a nifty app that seamlessly manages clients' fashion design shops across all devices. Styles, measurements, finances, record keeping, conversations, and many more all in one application.</p>
+            <p class="project-background">Django, Django Rest Framework, Redis, Rest API, NGINX, Rabbit MQ (Oct 2019 - Feb 2021)</p>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <a href="./project/">View other projects</a>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

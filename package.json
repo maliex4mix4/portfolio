@@ -1,0 +1,24 @@
+{
+  "name": "MalikPortfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "rm -rf dist/ && parcel build src/*.html && cp src/_redirects dist/"
+  },
+  "keywords": [
+    "Portfolio",
+    "Web Development"
+  ],
+  "author": "Malik Diyaolu",
+  "license": "ISC",
+  "dependencies": {
+    "jump.js": "^1.0.2",
+    "sal.js": "^0.6.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.0",
+    "parcel": "^2.2.0"
+  }
+}
